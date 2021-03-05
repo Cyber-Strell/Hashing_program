@@ -1,12 +1,16 @@
                                          #This program made by Gokul
 import hashlib
 mystring = input('Enter Your word to hash: ')
-print("""""""""""""""""""""""""""""""""""""""""""""""")
-hash_obj = hashlib.md5(mystring.encode())
-hash_obj1 = hashlib.sha256(mystring.encode())
-print('Your Md5 encrypted Result :', hash_obj.hexdigest())
-print('Your sha256 Result :', hash_obj1.hexdigest())
-print("""""""""""""""""""""""""""""""""""""""""""""""")
+print('"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""')
+md5_gkl = hashlib.md5(mystring.encode())
+sha26_gkl = hashlib.sha256(mystring.encode())
+print('Your Md5 encrypted Result :', md5_gkl.hexdigest())
+print('Your sha256 Result :', sha26_gkl.hexdigest())
+print('"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""')
+
+print('Thank You for using my progrmme :-)',md5_gkl.hexdigest())
+print('By Gokul :-)',sha26_gkl.hexdigest())
+
 
 
                                            #Thank You
