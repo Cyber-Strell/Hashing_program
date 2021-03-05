@@ -8,9 +8,11 @@
 #
 #
 # USAGE
-#pkg install python
-#pkg install git
-#git clone https://github.com/Cyber-Strell/Hashing_program.git
+pkg install python.
+#
+pkg install git.
+#
+git clone https://github.com/Cyber-Strell/Hashing_program.git
 
 #Thank you for using this program
     
